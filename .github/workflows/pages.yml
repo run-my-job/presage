@@ -1,14 +1,10 @@
-on:
-  push:
-    branches:
-      - main
-
+on: push
 name: GitHub Pages
 
 jobs:
   pages:
     name: Update
-    runs-on: ubuntu-latest
+    runs-on: puzl-ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
@@ -21,7 +17,8 @@ jobs:
         uses: dtolnay/rust-toolchain@v1
         with:
           toolchain: stable
-      - run: cargo doc --no-deps -p presage -p libsignal-service -p libsignal-protocol -p zkgroup
+      - run: cargo doc --no-deps -p presage -p libsignal-service -p 
+          libsignal-protocol -p zkgroup
       - uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
