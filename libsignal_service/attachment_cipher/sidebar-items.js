@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["AttachmentCipherError"],"fn":["decrypt_in_place","encrypt_in_place"]};

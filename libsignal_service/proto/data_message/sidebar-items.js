@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["Flags","ProtocolVersion"],"mod":["contact","payment","quote"],"struct":["Contact","Delete","GiftBadge","GroupCallUpdate","Payment","Quote","Reaction","Sticker","StoryContext"]};

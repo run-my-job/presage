@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":["AttachmentUploadError","MessageSenderError","ThreadIdentifier"],"struct":["AttachmentSpec","EncryptedMessages","MessageSender","OutgoingPushMessage","OutgoingPushMessages","SendMessageResponse","SentMessage"],"type":["GroupV2Id","SendMessageResult"]};

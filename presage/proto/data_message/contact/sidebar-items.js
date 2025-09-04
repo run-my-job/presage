@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":["email","phone","postal_address"],"struct":["Avatar","Email","Name","Phone","PostalAddress"]};
